@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hospital</title>
+    <link
+      rel="shortcut icon"
+      href="icons-imagens/cruz-vermelha.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style2.css"
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <header>
+      <label for="check">
+        <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
+      </label>
+      <div class="left">
+        <h3>Hospital <span>ST.John'S</span></h3>
+      </div>
+      <div class="right">
+        <a href="index.html" class="sair_btn">Sair</a>
+      </div>
+    </header>
+
+    <div class="sidebar">
+      <center>
+        <img src="icons-imagens/Foto-medico-1.jpg" class="image" alt="" />
+        <h2>João Neves</h2>
+      </center>
+      <a href="#"
+        ><ion-icon name="bar-chart-outline" class="primeiro"></ion-icon
+        ><span>Grafico</span></a
+      >
+      <a href="#"
+        ><ion-icon name="clipboard-outline"></ion-icon><span>Tarefas</span></a
+      >
+      <a href="#"
+        ><ion-icon name="person-outline"></ion-icon><span>Perfil</span></a
+      >
+      <a href="#"
+        ><ion-icon name="settings-outline"></ion-icon
+        ><span>Configurações</span></a
+      >
+
+      <a href="index.html"
+        ><ion-icon name="log-out-outline"></ion-icon><span>Sair</span></a
+      >
+    </div>
+
+    <div class="content">
+      <h4>Bem vindo ao Sistema</h4>
+
+      <div class="container">
+        <div class="card" id="card1">
+          <h3>Atendimentos</h3>
+          <p>Data: 28/04/2025</p>
+          <div class="dados">
+            <div class="top-row">
+              <div class="dados1">
+                <p>Realizados:</p>
+                <h1>17</h1>
+              </div>
+              <div class="dados1-2">
+                <p>Finalizados:</p>
+                <h1>13</h1>
+              </div>
+            </div>
+            <div class="dados1-3">
+              <p>Retornos:</p>
+              <h1>4</h1>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="card2">
+          <div class="dados2">
+            <h1>Buscar Paciente</h1>
+          </div>
+          <div class="dados2-2">
+            <p>Nome:</p>
+            <input type="search" />
+            <p>CPF:</p>
+            <input type="search" />
+          </div>
+          <div class="dados2-3">
+            <button>Pesquisar</button>
+          </div>
+        </div>
+        <div class="card" id="card3">
+          <h1>Agenda semanal</h1>
+          <div class="dados3">
+            <div class="dados3-1">
+              <p>Segunda - (31/05)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+              <p>Quinta - (03/06)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+            </div>
+            <div class="dados3-2">
+              <p>Terça - (01/05)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+              <p>Sexta - (04/06)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+            </div>
+            <div class="dados3-3">
+              <p>Quarta - (02/06)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+              <p>Sabado - (05/06)</p>
+              <ul>
+                <li>08:30 - Retorno</li>
+                <li>10:00 - Retorno</li>
+                <li>13:30 - Avaliação</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="card4"></div>
+        <div class="card" id="card5">
+          <h1>Cadastrar Paciente</h1>
+          <div class="dados5">
+  <div class="dados5-1">
+    <p>Nome Completo:</p>
+    <input type="text" placeholder="Nome completo" />
+    <p>CPF:</p>
+    <input type="text" placeholder="000.000.000-00" maxlength="14" />
+    <p>Nome da Mãe:</p>
+    <input type="text" placeholder="Nome da mãe" />
+  </div>
+
+  <div class="dados5-2">
+    <p>Telefone:</p>
+    <input type="text" placeholder="(00) 00000-0000" maxlength="15" />
+    <p>Nacionalidade:</p>
+    <input type="text" placeholder="Nacionalidade" />
+    <label for="sexo">Sexo:</label>
+<select id="sexo" name="sexo">
+  <option value="">Selecione</option>
+  <option value="masculino">Masculino</option>
+  <option value="feminino">Feminino</option>
+  <option value="outro">Outro</option>
+  <option value="nao-informar">Prefiro não informar</option>
+</select>
+  </div>
+
+  <div class="dados5-3">
+    <p>Nascimento:</p>
+    <input type="date" />
+    <p>Estado Civil:</p>
+    <select name="estado" id="estado">
+      <option value="">Selecione</option>
+      <option value="solteiro">Solteiro(a)</option>
+      <option value="casado">Casado(a)</option>
+      <option value="divorciado">Divorciado(a)</option>
+      <option value="solteiro">Viuvo(a)</option>
+    </select>
+    <button>Cadastrar</button>
+
+
+  </div>
+
+</div>
+
+            <div class="dados4-2"></div>
+            <div class="dados4-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
