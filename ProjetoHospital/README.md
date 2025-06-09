@@ -23,11 +23,11 @@ Baseia-se em outro sistema que estou desenvolvendo no trabalho, criado em **Flut
 
 ### 💻 Desktop
 
-![Versão desktop](ProjetoHospital-Html&CSS/img/imageDesktop.png)
+![Versão desktop](img/imageDesktop.png)
 
 ### 📱 Tablet
 
-![Versão tablet](ProjetoHospital-Html&CSS/img/imageTablet.png)
+![Versão tablet](img/imageTablet.png)
 
 ## 🚀 Como visualizar
 
