@@ -23,11 +23,11 @@ Baseia-se em outro sistema que estou desenvolvendo no trabalho, criado em **Flut
 
 ### 💻 Desktop
 
-![Versão desktop](./img/desktop.png)
+![Versão desktop](img/imageDesktop.png)
 
 ### 📱 Tablet
 
-![Versão tablet](./img/tablet.png)
+![Versão tablet](img/imageTablet.png)
 
 ## 🚀 Como visualizar
 
